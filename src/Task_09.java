@@ -9,7 +9,6 @@ public class Task_09 {
         System.out.print("Введите координаты конца отрезка (x2, y2): ");
         double x2 = scanner.nextDouble();
         double y2 = scanner.nextDouble();
-
         if (x1 == x2 && y1 == y2) {
             System.out.println("Отрезок является точкой.");
         } else if (x1 == x2) {
